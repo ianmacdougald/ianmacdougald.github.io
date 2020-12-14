@@ -4,16 +4,9 @@ My portfolio features four pieces composed within the last four years that show 
 
 * [Patterned Landscapes](patterned_landscapes)
 > percussion and real-time electronics
-
-
-### [Patternd Landscapes](patterned_landscapes.md) 
-percussion and real-time electronics
-
-### The First Circuit Democracy 
-analogue-digital feedback network
-
-### Epoch For Digital Petri Dish 
-generative simulation from [GenOrg](https://github.com/ianmacdougald/GenOrg) SuperCollider quark
-
-### Temporality Streams 
-digital synthesizer with violin controller
+* The First Circuit Democracy
+> analogue-digital feedback network
+* Epoch for Digital Petri Dish
+> generative simulation from [GenOrg](https://github.com/ianmacdougald/GenOrg) SuperCollider quark
+* Temporality Streams
+> digital granular synthesizer and violin controller
