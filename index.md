@@ -4,5 +4,5 @@ My portfolio features four pieces composed within the last four years that show 
 
 * [Patterned Landscapes](patterned_landscapes), *percussion and real-time electronics*
 * The First Circuit Democracy, *analogue-digital feedback network*
-* Epoch for Digital Petri Dish, *generative simulations*
+* Epoch for Digital Petri Dish, *fixed media*
 * Temporality streams, *granular synthesizer and violin controller*
