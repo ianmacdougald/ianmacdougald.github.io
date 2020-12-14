@@ -1,43 +1,15 @@
-# patterned_landscapes
+# Greetings!
 
-[Here](patterned_landscapes.md) is that link.
+My portfolio features four pieces composed within the last four years that show case various methodologies for making electronic and electro-acoustic music. Each page contains a link either to Vimeo or to Soundcloud where recordings of the associated piece are hosted as well as technical descriptions outlining my compositional process. 
 
+## Pieces 
 
+- [Patterned Landscapes](patterned_landscapes.md)
+    Percussion and real-time electronics
+- The First Circuit Democracy
+    Live improvisation with unstable feedback system
+- Epoch for Digital Petri Dish 
+    Arrangement of generative simulations from the [GenOrg](https://github.com/ianmacdougald/GenOrg) SuperCollider quark.
+- Temporality Streams
+    Custom granular synthesizer with violin controller.
 
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/ianmacdougald/portfolio/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ianmacdougald/portfolio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
