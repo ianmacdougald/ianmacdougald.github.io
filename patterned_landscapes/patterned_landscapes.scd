@@ -1,7 +1,6 @@
-s.quit;
-//To play the piece, you must follow to steps:
-//Step 1--initialize the piece. To do this, first make sure that the name of your interface is an uncommented string (i.e. grey, not red like this text); second, click anywhere in the big chunk of code that takes up most of this file and hit "enter"/CMD+return.
-//Step2--notice where it says ~piece[patterned_landscapes].fork? Hit that and the piece will start.
+//To play the piece, you must follow two steps:
+//Step 1--initialize the piece. To do this, make sure that the name of your interface is an uncommented string, and then evaluate that big chunk of code you see.
+//Step 2--notice evaluate the line of code that says ~piece[patterned_landscapes].fork.
 
 
 //piece
@@ -829,11 +828,3 @@ s.waitForBoot({
 
 });
 );
-
-
-s.plotTree;
-s.quit;
-
-
-
-
