@@ -34,9 +34,9 @@ p.fadeTime = 0.2;
 ~input[1] = \filter -> { | in |
 	DelayN.ar(
 		in, 
-		32.0, 
-		LFNoise2.kr(ExpRand(1/32, 1/16))
-		.exprange(24, 32)
+		2.0, 
+		LFNoise2.kr(ExpRand(0.01e-3, 0.25e-3))
+		.exprange(1e-3, 2.0)
 	); 
 }; 
 
