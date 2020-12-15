@@ -3,4 +3,4 @@
 ## Links
 
 [Recording](https://soundcloud.com/ian-macdougald/temporality-streams)
-[Source code]()
+[Source code](https://github.com/ianmacdougald/portfolio/tree/gh-pages/temporality_streams)
