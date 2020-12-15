@@ -2,7 +2,6 @@
 //Step 1--evaluate that big chunk of code down there.
 //Step 2--notice evaluate the line of code that says ~piece[patterned_landscapes].fork.
 
-
 //piece
 ~piece[\patterned_landscapes].fork;
 
