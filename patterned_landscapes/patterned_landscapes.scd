@@ -1,5 +1,5 @@
 //To play the piece, you must follow two steps:
-//Step 1--initialize the piece. To do this, make sure that the name of your interface is an uncommented string, and then evaluate that big chunk of code you see.
+//Step 1--evaluate that big chunk of code down there.
 //Step 2--notice evaluate the line of code that says ~piece[patterned_landscapes].fork.
 
 
