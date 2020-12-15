@@ -419,7 +419,7 @@ ServerQuit.removeAll;
 
 	e.add(\event_aPrime3 -> ~a_prime_material3 = ~pattern[\3]);
 
-	e.add(\event_aPrime4 -> 	~a_prime_material4 = ~pattern[\4]);
+	e.add(\event_aPrime4 -> ~a_prime_material4 = ~pattern[\4]);
 
 	e.add(\event_aPrime5 -> ~a_prime_material5 = ~pattern[\5]);
 
@@ -613,9 +613,9 @@ ServerQuit.removeAll;
 		3.wait;
 		~c_material4.stop;
 		4.wait;
-		~d_material13.free; ~d_material14.free;~d_material15.free;
-		~d_material16.free; ~d_material17.free;~d_material18.free;
-		~d_material19.free;~d_material20.free;~d_material21.free;
+		~d_material13.free; ~d_material14.free; ~d_material15.free;
+		~d_material16.free; ~d_material17.free; ~d_material18.free;
+		~d_material19.free;~d_material20.free; ~d_material21.free;
 	});
 
 	~music.add(\dSection ->{
@@ -639,13 +639,17 @@ ServerQuit.removeAll;
 	~piece = Dictionary.new;
 	~piece.add(\patterned_landscapes -> {
 		~clock.play;
-		~music[\aSection].fork; (41+25+30+20+5+4+30+25+15+15+25+25+10).wait;
+		~music[\aSection].fork; 
+		(41 + 25 + 30 + 20 + 5 + 4 + 30 + 25 + 15 + 15 + 25 + 25 + 10).wait;
 		"b section starts".postln;
-		~music[\bSection].fork; (25 + 210 + 9).wait;
+		~music[\bSection].fork; 
+		(25 + 210 + 9).wait;
 		"c section starts".postln;
-		~music[\cSection].fork; (2 + 5 + 7 + 10 + 20 + 2 +5 + 10 + 7 + 30 +4 + 5.2).wait;
+		~music[\cSection].fork; 
+		(2 + 5 + 7 + 10 + 20 + 2 +5 + 10 + 7 + 30 +4 + 5.2).wait;
 		"d section starts".postln;
-		~music[\dSection].fork; (41 + 25 + 30 + 4).wait;
+		~music[\dSection].fork; 
+		(41 + 25 + 30 + 4).wait;
 		~mainGroup.release(41);
 		50.wait;
 		~clock.stop;
