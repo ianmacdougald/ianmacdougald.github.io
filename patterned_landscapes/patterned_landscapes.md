@@ -12,4 +12,3 @@ In the first section, the performer is tasked with accompanying the eletronics, 
 
 In the second section, this dynamic breaks down as the performer attempts to take control of the system. Increasingly less conventional techniques are used to trigger spastic reactions from the software, which, in response to both the tumultuousness of the moment and its unequal positioning with respect to the player, abandons the samples that once connected them in favor of synthesized bursts of noise. This continues until the system, in an apparent offering of musical peace, begins introducing timbres from bowed symbols. The player eventually follows suit, and the two start cooperating once more, although with some hestitancy. Trust is only restored when the system restates the initial patterns. Then recapitulation ensues, and the piece ends in a musical atmosphere of human-software comity.
  
-
