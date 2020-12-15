@@ -4,7 +4,7 @@ The following four pieces make up my portfolio for review by doctoral admissions
 
 * [Patterned Landscapes](patterned_landscapes.md), *percussion and real-time electronics*
 * [First Circuit Democracy](first_circuit_democracy.md), *analogue-digital feedback network*
-* Epoch for Digital Petri Dish, *fixed media*
+* [Epoch for Digital Petri Dish](epoch.md), *fixed media*
 * Temporality streams, *granular synthesizer with violin controller*
 
 Thank you for your consideration!
