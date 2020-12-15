@@ -1,7 +1,7 @@
 # Patterned Landscapes (2016) 
 
-*[Recording](https://vimeo.com/201015513)
-*[Source code](https://github.com/ianmacdougald/portfolio/blob/gh-pages/patterned_landscapes/patterned_landscapes.scd)
+* [Recording](https://vimeo.com/201015513)
+* [Source code](https://github.com/ianmacdougald/portfolio/blob/gh-pages/patterned_landscapes/patterned_landscapes.scd)
 
 Patterned Landscapes is a piece for percussion and real-time electronics, depicting remote sonic spaces using a diverse pallette of instruments and digital techniques. It was written for Russell Greenberg and premiered at Brown University in the fall of 2016. Throughout the piece, musical momentum is driven by the mimetic relationship between the performer and a software system. Using SuperCollider's [pattern library](https://doc.sccode.org/Tutorials/A-Practical-Guide/PG_01_Introduction.html), the software manipulates samples captured during a rehearsal of the instruments used in the performance, recomposing them into the motives that define each respective section, while both software and instrumentalist negotiate a shifting interactional dynamic.
 
