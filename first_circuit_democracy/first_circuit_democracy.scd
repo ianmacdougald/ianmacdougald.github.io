@@ -16,9 +16,10 @@ p.fadeTime = 0.2;
 //3.0 Define NodeProxies
 ~input.clear;
 ~output.clear;
+~to_mixer.clear;
 
-~input.play;
 ~output.play;
+~to_mixer.play(2);
 
 //Create input
 ~input[0] = { 
@@ -61,6 +62,6 @@ p.fadeTime = 0.2;
 	) ;
 }; 
 
-//Send to third and fourth output
-~output.play(2);
+//Send output to mixer
+~to_mixer[0] = { ~output.ar };
 )
