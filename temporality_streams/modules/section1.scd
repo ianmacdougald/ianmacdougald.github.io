@@ -1,10 +1,11 @@
 { | modules, proxySpace |
 	var factories = modules.factories;
+
 	proxySpace.use({
 		//0. Allocate buffers for section
 		var buffer = factories.alloc(16.0, 1);
 
-        //1. Define NodeProxies
+		//1. Define NodeProxies
 		//Writes signal to buffer and granulates it
 		~phasor_meta0 = factories.phasor(buffer);
 		~toBuffer_meta0 = factories.toBuffer(buffer);
@@ -61,5 +62,5 @@
 
 	});
 
-    //Nil is not returned, so the section is ended automatically
+	//Nil is not returned, so the section is ended automatically
 }

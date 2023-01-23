@@ -2,7 +2,7 @@
 
 ## Links
 * [Recording](https://soundcloud.com/ian-macdougald/epoch-for-digital-petri-dish)
-* [Source code](https://github.com/ianmacdougald/portfolio/blob/gh-pages/epoch.scd)
+* [Source code](https://github.com/ianmacdougald/ianmacdougald.github.io/blob/gh-pages/epoch.scd)
 
 ## Description
 

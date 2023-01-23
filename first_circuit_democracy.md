@@ -2,7 +2,7 @@
 
 ## Links
 * [Recording](https://soundcloud.com/ian-macdougald/the-first-circuit-democracy)
-* [Source code](https://github.com/ianmacdougald/portfolio/blob/gh-pages/first_circuit_democracy.scd)
+* [Source code](https://github.com/ianmacdougald/ianmacdougald.github.io/blob/gh-pages/first_circuit_democracy.scd)
 
 ## Description
 
