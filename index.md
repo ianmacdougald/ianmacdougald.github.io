@@ -6,6 +6,6 @@ Within each page, there is a link to the recording of the piece, a link to its s
 
 * [Patterned Landscapes](patterned_landscapes.md), *percussion and real-time electronics*
 * [First Circuit Democracy](first_circuit_democracy.md), *analogue-digital feedback network*
-* [Epoch for Digital Petri Dish](epoch.md), *fixed media*
 * [Temporality Streams](temporality_streams.md), *granular synthesizer with violin controller*
+* [Epoch for Digital Petri Dish](epoch.md), *fixed media*
 
