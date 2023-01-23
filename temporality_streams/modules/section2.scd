@@ -2,14 +2,10 @@
 	var cleanup = modules.cleanup;
 	var factories = modules.factories;
 	proxySpace.use({
-		/********************************
-		0. Allocate buffers for section
-		********************************/
+		//0. Allocate buffers for section
 		var buffer = factories.alloc(8.0, 1);
 
-		/********************************
-		1. Define NodeProxies
-		********************************/
+		//1. Define NodeProxies
 		//Writes signal to buffer and granulates it
 		~phasor_meta1 = factories.phasor(buffer);
 		~toBuffer_meta1 = factories.toBuffer(buffer);
@@ -25,9 +21,7 @@
 		~pitch_meta1 = factories.pitch();
 		~peaks_meta1 = factories.peaks();
 
-		/********************************
-		2. Map NodeProxies together
-		********************************/
+		//2. Map NodeProxies together
 		~amplitude_meta1.map(\input, ~sumGrains_meta);
 		~pitch_meta1.map(\input, ~sumGrains_meta);
 		~peaks_meta1.map(\input, ~sumGrains_meta);
@@ -44,9 +38,7 @@
 			\z, ~peaks_meta1
 		);
 
-		/********************************
-		3. Sets NodeProxies' values
-		********************************/
+		//3. Sets NodeProxies' values
 		~phasor_meta1.set(
 			\limit, 1/16,
 			\rate, 1
@@ -54,9 +46,7 @@
 
 		~peaks_meta1.set(\scaling, 2.0);
 
-		/********************************
-		4. Rout NodeProxies to output
-		********************************/
+		//4. Rout NodeProxies to output
 		~output[0] = factories.output(
 			~instrument,
 			~grains0,
@@ -64,9 +54,7 @@
 			~grains_meta1
 		);
 
-		/********************************
-		5. Scales output values
-		********************************/
+		//5. Scales output values
 		~output.set(
 			//instrument,
 			\amp0, 0.1,

@@ -1,14 +1,10 @@
 { | modules, proxySpace |
 	var factories = modules.factories;
 	proxySpace.use({
-		/********************************
-		0. Allocate buffers for section
-		********************************/
+		//0. Allocate buffers for section
 		var buffer = factories.alloc(16.0, 1);
 
-		/********************************
-		1. Define NodeProxies
-		********************************/
+        //1. Define NodeProxies
 		//Writes signal to buffer and granulates it
 		~phasor_meta0 = factories.phasor(buffer);
 		~toBuffer_meta0 = factories.toBuffer(buffer);
@@ -22,9 +18,7 @@
 			~peaks0.kr.lag(\lag.kr(0.2));
 		};
 
-		/********************************
-		2. Map NodeProxies together
-		********************************/
+		//2. Map NodeProxies together
 		~toBuffer_meta0.map(
 			\phasor, ~phasor_meta0,
 			\input, ~sumGrains0
@@ -37,9 +31,7 @@
 			\z, ~lag_peaks0
 		);
 
-		/********************************
-		3. Sets NodeProxies' values
-		********************************/
+		//3. Sets NodeProxies' values
 		~phasor_meta0.set(
 			\limit, 1/8,
 			\rate, 1
@@ -49,18 +41,14 @@
 
 		~peaks_meta0.set(\scaling, 2.0);
 
-		/********************************
-		4. Rout NodeProxies to output
-		********************************/
+		//4. Rout NodeProxies to output
 		~output[0] = factories.output(
 			~instrument,
 			~grains0,
 			~grains_meta0
 		);
 
-		/********************************
-		5. Scales output values
-		********************************/
+		//5. Scales output values
 		~output.fadeTime = 8.0;
 		~output.set(
 			//fromInterface,
@@ -73,5 +61,5 @@
 
 	});
 
-	nil;
+    //Nil is not returned, so the section is ended automatically
 }

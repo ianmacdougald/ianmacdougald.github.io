@@ -1,8 +1,7 @@
 { | modules, proxySpace |
 	proxySpace.use({
-		/********************************
-		3. Sets NodeProxies' values
-		********************************/
+        //No need for setup sections 0-2
+		//3. Sets NodeProxies' values
 		~phasor0.set(
 			\limit, 1/4,
 			\rate, 0.9
